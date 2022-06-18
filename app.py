@@ -48,6 +48,7 @@ def update(id):
     else:
         return render_template('update.html', id=id)
 
+# clear all tasks
 @app.route('/clear')
 def clear():
     db.session.query(Task).delete()
