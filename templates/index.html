@@ -1,0 +1,28 @@
+{% extends 'layout.html' %}
+
+{% block head %}
+    <title>TODOLIST</title>
+{% endblock %}
+
+{% block body %}
+<section>
+    <div class="todo_container">
+        <h1>TO DO LIST APP</h1>
+        <form action="post">
+            <input type="text" name="task">
+            <input type="submit" value="ADD TASK">
+        </form>
+        <ul>
+            <li>
+                <div class="task">
+                    <h4>HTML</h4>
+                    <div>
+                        <a href=""><i class="fa-solid fa-trash"></i></a>
+                        <a href=""><i class="fa-solid fa-pen-to-square"></i></a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+{% endblock %}
