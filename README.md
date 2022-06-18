@@ -19,6 +19,10 @@ source venv/bin/activate
 pip3 install requirements.txt
 ```
 - As you will see in my project folder that I already initialize the database, but If you want to know how, follow this link [SQLAlchemy Quickstart](https://flask-sqlalchemy.palletsprojects.com/en/2.x/quickstart/#installation).
+- Run the app and enjoy it :smile::
+```
+flask run
+```
 
 **Note:** If you want to know why we created a virual environement and the installation process for Windows visit this link [Flask Installation](https://flask.palletsprojects.com/en/2.1.x/installation/), also make sure you have the `virtualenv` package installed by using `sudo pip3 install virtualenv` in order to create a virtual environement.
 ## Profil
