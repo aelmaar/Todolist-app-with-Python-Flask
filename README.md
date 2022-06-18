@@ -1,7 +1,8 @@
 ## Project
 Building a simple CRUD app (To do list) using Flask framework. \
 \
-In this project I focus more on the backend then the Frontend, it was really fun to learn python and flask framework :smile:.
+In this project I focus more on the backend then the Frontend, it was really fun to learn python and flask framework :smile:. \
+**[Demo app](https://todolist-app2022.herokuapp.com/) deployed on Heroku**
 ## Setup (Mac/Linux)
 - Create a `virtual environement` folder (venv) inside the project folder:
 
