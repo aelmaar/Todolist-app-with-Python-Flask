@@ -65,7 +65,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background:rgba(255,0,0,.4)
+    background:rgba(255,0,0,.5)
 }
 
 .fa-solid {
@@ -78,4 +78,18 @@ input[type="submit"]:hover {
 
 .fa-pen-to-square {
     color:rgba(9, 74, 0,.8)
+}
+
+.clear button{
+    border:none;
+    padding:8px 10px;
+    font-weight:bold;
+    cursor: pointer;
+    transition: .4s background;
+    background:rgba(255,0,0,.7);
+    color:white
+}
+
+.clear button:hover {
+    background:rgba(255,0,0,.5)
 }

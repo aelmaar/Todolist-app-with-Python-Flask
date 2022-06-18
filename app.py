@@ -47,3 +47,9 @@ def update(id):
             return redirect('/')
     else:
         return render_template('update.html', id=id)
+
+@app.route('/clear')
+def clear():
+    db.session.query(Task).delete()
+    db.session.commit()
+    return redirect('/')
